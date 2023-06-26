@@ -18,8 +18,8 @@ const makeSound = (key) => {
 
     switch (key) {
         case "w":
-            const w = new Audio("./sounds/tom-1.mp3");
-            w.play();
+            let audio = new Audio("./sounds/tom-1.mp3");
+            audio.play();
             break;
             
         case "a":
